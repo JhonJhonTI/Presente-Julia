@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Julia ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="estrelas"></div>
+
+    <main class="container">
+
+        <!-- INTRODUÇÃO -->
+        <section class="tela ativa" id="inicio">
+            <div class="conteudo">
+                <span class="emoji-principal">💌</span>
+
+                <p class="subtitulo">Uma pequena surpresa para você...</p>
+
+                <h1>Feliz aniversário, minha vida!</h1>
+
+                <p class="destaque">Julia Alves ❤️</p>
+
+                <p class="descricao">
+                    Preparei algo especial para a pessoa que torna
+                    meus dias muito mais bonitos.
+                </p>
+
+                <button onclick="irPara('carta')">
+                    Abrir minha surpresa ❤️
+                </button>
+            </div>
+        </section>
+
+        <!-- CARTA -->
+        <section class="tela" id="carta">
+            <div class="conteudo carta">
+                <span class="emoji-principal">❤️</span>
+
+                <h2>Uma carta para você</h2>
+
+                <div class="texto-carta">
+                    <p>Julia, minha vida… ❤️</p>
+
+                    <p>
+                        Desde o dia em que comecei a me aproximar de você,
+                        algo muito forte despertou dentro de mim. Aos poucos,
+                        percebi que o que eu sentia não era algo passageiro,
+                        nem uma simples vontade de ter você por perto. Era
+                        algo muito mais bonito e verdadeiro: um sentimento
+                        puro, que crescia dentro de mim cada vez que eu te via,
+                        cada vez que conversávamos e cada vez que eu tinha a
+                        oportunidade de estar perto de você.
+                    </p>
+
+                    <p>
+                        E, quanto mais eu te conhecia, mais eu percebia que
+                        era você quem fazia esse sentimento crescer. Sem
+                        precisar fazer nada extraordinário, apenas sendo você,
+                        com seu jeitinho, você foi conquistando um espaço
+                        enorme dentro do meu coração.
+                    </p>
+
+                    <p>
+                        Não quero apenas te amar hoje. Quero continuar
+                        encontrando motivos para te amar amanhã, depois de
+                        amanhã e em cada novo dia que tivermos a oportunidade
+                        de compartilhar. Quero estar presente nos seus dias
+                        felizes, te dar carinho nos dias difíceis e fazer você
+                        se lembrar, sempre que precisar, do quanto é especial
+                        para mim.
+                    </p>
+
+                    <p>
+                        Se nossos caminhos realmente se cruzaram por um
+                        propósito, espero que uma das partes mais bonitas dele
+                        seja tudo aquilo que ainda vamos viver juntos.
+                    </p>
+
+                    <p>
+                        Feliz aniversário, minha vida. Que seu novo ciclo seja
+                        tão lindo quanto o sorriso que você desperta em mim.
+                    </p>
+
+                    <p>Eu te amo! ❤️</p>
+                </div>
+
+                <button onclick="irPara('galeria')">
+                    Continuar nossa história ✨
+                </button>
+            </div>
+        </section>
+
+        <!-- GALERIA -->
+        <section class="tela" id="galeria">
+            <div class="conteudo galeria-conteudo">
+                <span class="emoji-principal">📸</span>
+
+                <h2>O varal da pessoa que eu mais amo</h2>
+
+                <p class="descricao">
+                    Alguns dos meus momentos favoritos têm você neles. ❤️
+                </p>
+
+                <div class="galeria">
+
+                    <div class="polaroid">
+                        <img src="fotos/foto1.jpg" alt="Nossa foto 1">
+                        <p>se eu pudesse reviver um momento</p>
+                    </div>
+
+                    <div class="polaroid">
+                        <img src="fotos/foto2.jpg" alt="Nossa foto 2">
+                        <p>eu reviveria</p>
+                    </div>
+
+                    <div class="polaroid">
+                        <img src="fotos/foto3.jpg" alt="Nossa foto 3">
+                        <p>os quais eu estava com você</p>
+                    </div>
+
+                    <div class="polaroid">
+                        <img src="fotos/foto4.jpg" alt="Nossa foto 4">
+                        <p>te amo gata ❤️</p>
+                    </div>
+
+                </div>
+
+                <button onclick="irPara('final')">
+                    Tenho mais uma coisa para te mostrar 💌
+                </button>
+            </div>
+        </section>
+
+        <!-- FINAL -->
+        <section class="tela" id="final">
+            <div class="conteudo">
+                <span class="emoji-principal">🎂</span>
+
+                <h1>Feliz aniversário, meu amor!</h1>
+
+                <p class="descricao">
+                    Que a vida te dê tantos motivos para sorrir
+                    quanto você me dá simplesmente por existir.
+                </p>
+
+                <div class="contador-area">
+                    <h2>Nosso tempo juntos ❤️</h2>
+
+                    <div class="contador" id="contador">
+                        <div class="tempo">
+                            <span id="dias">0</span>
+                            <small>Dias</small>
+                        </div>
+
+                        <div class="tempo">
+                            <span id="horas">0</span>
+                            <small>Horas</small>
+                        </div>
+
+                        <div class="tempo">
+                            <span id="minutos">0</span>
+                            <small>Minutos</small>
+                        </div>
+
+                        <div class="tempo">
+                            <span id="segundos">0</span>
+                            <small>Segundos</small>
+                        </div>
+                    </div>
+
+                    <!-- FRASE ADICIONADA -->
+                    <p class="beijo-legenda">
+                        Nosso primeiro beijo foi às 12h. ❤️
+                    </p>
+                </div>
+
+                <p class="frase-final">
+                    Se eu pudesse escolher novamente,
+                    ainda escolheria você. Sempre você. ❤️
+                </p>
+
+                <p class="assinatura">
+                    Com todo o meu amor, para você. 💌
+                </p>
+
+                <button onclick="irPara('inicio')">
+                    Ver tudo novamente ↺
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
